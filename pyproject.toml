@@ -1,0 +1,14 @@
+[project]
+name = "semantic_field_ns"
+version = "0.0.2"
+
+dependencies=[
+    "nerfstudio"
+]
+
+
+[tool.setuptools.packages.find]
+include = ["semanticField*"]
+
+[project.entry-points.'nerfstudio.method_configs']
+semantic_field = 'semanticField.semanticField_config:semanticField'

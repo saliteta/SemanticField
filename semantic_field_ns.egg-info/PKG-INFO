@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: semantic_field_ns
+Version: 0.0.2
+Requires-Dist: nerfstudio

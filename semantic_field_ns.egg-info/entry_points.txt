@@ -1,0 +1,2 @@
+[nerfstudio.method_configs]
+semantic_field = semanticField.semanticField_config:semanticField
